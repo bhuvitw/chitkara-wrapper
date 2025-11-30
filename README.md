@@ -21,6 +21,11 @@ College Assistant CLI is a command-line companion that handles your Chalkpad log
   Clean, colorful terminal UI powered by `rich`.
 
 ---
+## 📊 Demo
+
+<img width="1123" height="293" alt="image" src="https://github.com/user-attachments/assets/5f5e178a-74d5-4806-85a4-7de9a176066d" />
+<img width="998" height="320" alt="image" src="https://github.com/user-attachments/assets/97dfb29d-8bf5-43c9-82ae-16d4500bf245" />
+<img width="725" height="392" alt="image" src="https://github.com/user-attachments/assets/e659caef-758b-48e5-bcbe-17bdfa906d98" />
 
 ## 🚀 Installation
 
