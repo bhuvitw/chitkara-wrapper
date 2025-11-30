@@ -1,0 +1,21 @@
+# Python
+
+pycache/
+*.py[cod]
+venv/
+.env
+
+# Session Data (CRITICAL: Do not commit these)
+
+session.pkl
+*.pkl
+cookies.json
+
+# Logs
+
+*.log
+
+# IDE
+
+.vscode/
+.idea/
