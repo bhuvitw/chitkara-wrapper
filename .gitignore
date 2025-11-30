@@ -17,5 +17,5 @@ session.pkl
 .idea/
 
 # Debug
-debug_register
-debug_view
+tests/debug_register
+tests/debug_view
