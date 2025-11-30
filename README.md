@@ -1,87 +1,74 @@
-# chitkara-wrapper
----
+# 🎓 College Assistant CLI
 
-# 🎓 Autonomous Academic Assistant
+*A smart automation tool for Chalkpad Pro ERP users.*
 
-**(Day 1 – Core Engine Release)**
-
-An intelligent automation layer built on top of the **Chalkpad Pro ERP** system.
-This project handles login, OTP bypass, session reuse, and performs predictive analytics for attendance and grades.
+College Assistant CLI is a command-line companion that handles your Chalkpad login, tracks your attendance, and uses predictive analytics to help you decide exactly when you can safely bunk without dropping below your target percentage.
 
 ---
 
-## 🚀 Features (Phase 1 – Core Engine)
+## ✨ Features
 
-### 🔐 **Auto-Login + OTP Bypass**
+* **🔐 Auto-Login**
+  Automatically bypasses OTP fatigue using Gmail automation.
 
-Automates the entire login flow using Selenium + Gmail IMAP to retrieve OTPs.
+* **🧠 Session Caching**
+  Authenticate once — stay logged in for hours.
 
-### 🍪 **Session Hijacking / Reuse**
+* **📊 Smart Attendance Planner**
+  Enter your target attendance (e.g., 76%) and get precise recommendations on which classes to attend or skip.
 
-Extracts and stores the active `PHPSESSID` to avoid repeated logins and reduce server load.
-
-### 📉 **Safe Bunk Calculator**
-
-Parses attendance data and computes:
-
-* How many classes you can safely skip
-* Whether tomorrow is a risky bunk
-* Subject-wise attendance vulnerability
+* **🎨 Rich CLI Dashboard**
+  Clean, colorful terminal UI powered by `rich`.
 
 ---
 
-## 🛠️ Installation & Setup
+## 🚀 Installation
 
-### 1️⃣ Clone the repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/academic-assistant.git
-cd academic-assistant
+git clone https://github.com/yourusername/college-assistant.git
+cd college-assistant
 ```
 
-### 2️⃣ Install dependencies
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Environment Configuration
+### 3. Configure Environment
 
-Copy the example environment file:
+* Rename `.env.example` → `.env`
+* Add your Chalkpad + Gmail credentials.
+* Update `timetable.json` with your class schedule.
 
-```bash
-cp .env.example .env
-```
+---
 
-Fill in:
+## 🛠️ Usage
 
-* `COLLEGE_ID`
-* `COLLEGE_PASSWORD`
-* `GMAIL_USER`
-* `GMAIL_APP_PASSWORD`
-* `OTP_EMAIL_SUBJECT_KEYWORD` (optional)
-
-### 4️⃣ Run the Auth Engine
-
-Logs into Chalkpad and saves the session cookie locally:
+### Login
 
 ```bash
 python auth.py
 ```
 
-### 5️⃣ Run the Data Fetcher
-
-Fetches attendance using the saved session and analyzes it:
+### Fetch Attendance
 
 ```bash
 python fetch.py
 ```
 
+### Weekly Planner
+
+```bash
+python planner.py
+```
+
 ---
 
-## ⚠️ Security Notice
+## ⚠️ Disclaimer
 
-* **Never** commit your `.env` file or `session.pkl` / `session_cookie.json`.
-* `.gitignore` is preconfigured to keep sensitive files out of version control.
-* Use **App Passwords** for Gmail instead of your real account password.
+This project is for **educational and personal automation purposes only**.
+Use responsibly and at your own risk.
 

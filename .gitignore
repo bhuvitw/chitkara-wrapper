@@ -1,21 +1,21 @@
-# Python
-
-pycache/
+# Python cache
+__pycache__/
 *.py[cod]
+
+# Virtual Environment
 venv/
+env/
+
+# Secrets (NEVER UPLOAD THESE)
 .env
 
-# Session Data (CRITICAL: Do not commit these)
-
+# Session Data
 session.pkl
-*.pkl
-cookies.json
 
-# Logs
-
-*.log
-
-# IDE
-
+# IDE settings
 .vscode/
 .idea/
+
+# Debug
+debug_register
+debug_view

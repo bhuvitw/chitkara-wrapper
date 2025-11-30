@@ -1,0 +1,25 @@
+{
+  "Monday": [
+      {"subject": "Database Management System", "weight": 2},
+    {"subject": "Data Structures using Object Oriented Programming-I", "weight": 4}
+  ],
+  "Tuesday": [
+      {"subject": "Database Management System", "weight": 2},
+    {"subject": "Data Structures using Object Oriented Programming-I", "weight": 4}
+  ],
+  "Wednesday": [
+    {"subject": "Object Oriented Software Engineering", "weight": 1},
+    {"subject": "Discrete Structures", "weight": 1},
+    {"subject": "Data Structures using Object Oriented Programming-I", "weight": 2}
+  ],
+  "Thursday": [
+      {"subject": "Discrete Structures", "weight": 1},
+    {"subject": "Object Oriented Software Engineering", "weight": 1},
+    {"subject": "Data Structures using Object Oriented Programming-I", "weight": 4}
+  ],
+  "Friday": [
+      {"subject": "Discrete Structures", "weight": 1},
+    {"subject": "Object Oriented Software Engineering", "weight": 1},
+    {"subject": "Data Structures using Object Oriented Programming-I", "weight": 2}
+  ]
+}
