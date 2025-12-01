@@ -1,0 +1,9 @@
+COLLEGE_LOGIN_URL=https://cuiet.codebrigade.in/loginManager/load
+COLLEGE_DASHBOARD_URL=https://cuiet.codebrigade.in/chalkpadpro/studentDetails/display
+COLLEGE_USER=2410990207
+COLLEGE_PASS=rain123bro
+
+GMAIL_USER=rainbro187@gmail.com
+GMAIL_APP_PASS=eoyw wyse aizv dzxb
+OTP_SENDER_EMAIL=no-reply@chitkara.edu.in
+HEADLESS_MODE=False
