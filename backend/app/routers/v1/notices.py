@@ -9,7 +9,7 @@ async def get_notices():
     """
     Live scrapes the top 5 notices and returns PDF links.
     """
-    service = NoticeService(headless=True) # Run invisible
+    service = NoticeService(headless=False) # Run invisible
     data = service.get_notices(limit=5)
     return {
         "status": "success",
